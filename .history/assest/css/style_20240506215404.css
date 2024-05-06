@@ -436,9 +436,8 @@ a {
     margin-left: auto;
     width: 66%;
 }
-.feedback-item .dot.active-dot {
+.active-dot {
     background: #ffb900;
-    cursor: default;
 }
 
 .feedback-item .content blockquote {

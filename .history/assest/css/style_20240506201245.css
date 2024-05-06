@@ -42,14 +42,10 @@ body {
 
 .btn:hover {
     opacity: 0.9;
-    cursor: pointer;
 }
 
 a {
     text-decoration: none;
-}
-.break-all {
-    word-break: break-all;
 }
 
 /* -========HEADER============== */
@@ -171,7 +167,7 @@ a {
     margin-left: 16px;
 }
 
-.hero-summary .label {
+.hero-summary .lable {
     color: #5f5b53;
     font-size: 1.4rem;
     line-height: 1.85;
@@ -320,11 +316,7 @@ a {
 .course-item {
     flex: 1;
     background: #fff;
-    border: 1px solid #eadfea;
-}
-.course-item :hover {
     box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
-    border-color: transparent;
 }
 
 .course-item .thumb {
@@ -344,12 +336,11 @@ a {
     justify-content: space-between;
 }
 
-.course-item .info .title a {
+.course-item .info .title {
     color: #171100;
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 1.67; /* 166.667% */
-    padding-right: 6px;
 }
 
 .course-item .info .value {
@@ -381,70 +372,4 @@ a {
 
 .course-item .book-btn {
     border: none;
-}
-
-.course-item .book-btn:hover {
-    color: #fff;
-    background: var(--main-color);
-}
-/* =======FEEDBACK======= */
-.feedback {
-    margin-top: 200px;
-    padding: 96px 0;
-    background: #2e2100;
-}
-
-.feedback-item {
-    display: flex;
-}
-.feedback-item .avatar {
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.feedback-item .title {
-    margin-top: 18px;
-    color: #f7f7f7;
-    font-family: var(--font-sen);
-    font-size: 2.4rem;
-    font-weight: 700;
-    line-height: 1.41;
-}
-.feedback-item .desc {
-    margin-top: 4px;
-    color: #bfbcb2;
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 1.85;
-}
-
-.feedback-item .dots {
-    display: flex;
-    margin-top: 28px;
-}
-
-.feedback-item .dot {
-    height: 6px;
-    width: 6px;
-    border-radius: 50%;
-    background: #634700;
-    margin-right: 6px;
-    cursor: pointer;
-}
-.feedback-item .content {
-    margin-left: auto;
-    width: 66%;
-}
-.feedback-item .dot.active-dot {
-    background: #ffb900;
-    cursor: default;
-}
-
-.feedback-item .content blockquote {
-    color: #fff;
-    font-size: 2.6rem;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 1.53;
 }

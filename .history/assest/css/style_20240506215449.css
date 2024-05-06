@@ -438,7 +438,6 @@ a {
 }
 .feedback-item .dot.active-dot {
     background: #ffb900;
-    cursor: default;
 }
 
 .feedback-item .content blockquote {

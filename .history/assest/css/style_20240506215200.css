@@ -430,15 +430,10 @@ a {
     border-radius: 50%;
     background: #634700;
     margin-right: 6px;
-    cursor: pointer;
 }
 .feedback-item .content {
-    margin-left: auto;
+    left: auto;
     width: 66%;
-}
-.feedback-item .dot.active-dot {
-    background: #ffb900;
-    cursor: default;
 }
 
 .feedback-item .content blockquote {
