@@ -563,7 +563,7 @@ a {
     overflow: hidden;
 }
 .blog .item {
-    width: calc(33.33% - 20px);
+    width: 33.33%;
     background: #ffffff;
     flex-shrink: 0;
 }

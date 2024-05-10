@@ -560,12 +560,11 @@ a {
     margin-top: 65px;
     display: flex;
     gap: 0 30px;
-    overflow: hidden;
+    flex-shrink: 0;
 }
 .blog .item {
-    width: calc(33.33% - 20px);
+    width: 33, 33%;
     background: #ffffff;
-    flex-shrink: 0;
 }
 
 .blog .item:hover {
